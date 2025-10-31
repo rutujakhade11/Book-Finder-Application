@@ -1,0 +1,23 @@
+{
+  "projectName": "Book-Finder-Application-iNeuron",
+  "projectOwner": "ChinmayKaitade",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "contributors": [
+    {
+      "login": "DevNinja08",
+      "name": "Dev Ninja",
+      "avatar_url": "https://github.com/DevNinja.png",
+      "profile": "https://github.com/DevNinja08",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "commit": true,
+  "contributorsPerLine": 6,
+  "contributorsSortAlphabetically": false
+}
