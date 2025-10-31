@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
             <FaPhone className="mr-2" /> +123 456 7890
           </p>
 
-          {/* LinkedIn & GitHub */}
+          {/* LinkedIn Only */}
           <div className="footer-social flex space-x-4">
             <a
               href="https://www.linkedin.com/in/rutuja-khade-0b1b47222/"
@@ -30,14 +30,6 @@ const Footer = () => {
               className="hover:text-gray-400 cursor-pointer"
             >
               <FaLinkedin size={20} />
-            </a>
-            <a
-              href="https://github.com/rutujakhade11/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-400 cursor-pointer"
-            >
-              <FaGithub size={20} />
             </a>
           </div>
         </div>
@@ -158,15 +150,8 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div id="copyrights" className="text-center mt-8 md:-mb-8">
         <h3 className="text-gray-200">
-          © Copyrights. All Rights Reserved | Made by {" "}
-          <a
-            href="https://github.com/rutujakhade11/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold hover:text-purple-500 transition-all"
-          >
-            Rutuja Khade
-          </a>
+          © Copyrights. All Rights Reserved | Made by{" "}
+          <span className="font-semibold text-purple-400">Rutuja Khade</span>
         </h3>
       </div>
     </footer>
